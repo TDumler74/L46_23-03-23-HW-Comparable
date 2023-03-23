@@ -55,18 +55,17 @@ public class Main {
 
     }
     /*
-   Sorting by IDE :
+Sorting by IDE :
 [ IDE123 John, age= 55, $1500,  IDE321 Michaella, age= 20, $2500,  IDE456 Michael, age= 20, $1250,  IDE654 Maria, age= 20, $1500]
 ____________________________________________________________________________
 Sorting by name:
 [ IDE123 John, age= 55, $1500,  IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500]
 _____________________________________________________________________________
 Sorting by age:
-[ IDE123 John, age= 55, $1500,  IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500]
+[ IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500,  IDE123 John, age= 55, $1500]
 _____________________________________________________________________________
 Sorting by age and name:
 [ IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500,  IDE123 John, age= 55, $1500]
-
 
      */
 

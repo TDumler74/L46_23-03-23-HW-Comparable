@@ -5,6 +5,6 @@ import java.util.Comparator;
 public class ageComparator implements Comparator<Employee> {
     @Override
     public int compare(Employee o1, Employee o2) {
-        return o2.age- o1.age;
+        return Integer.compare(o1.getAge(), o2.getAge());
     }
 }
