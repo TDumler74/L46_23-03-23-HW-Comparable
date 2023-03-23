@@ -15,9 +15,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        Employee john= new Employee(123,"John",55,1500);
+        Employee john= new Employee(123,"Thomas",55,1500);
 
-        Employee karl=new Employee(456,"Michael",20,1250);
+        Employee karl=new Employee(456,"Michael",32,1250);
 
         Employee andrew=new Employee(321,"Michaella",20,2500);
 
@@ -56,16 +56,16 @@ public class Main {
     }
     /*
 Sorting by IDE :
-[ IDE123 John, age= 55, $1500,  IDE321 Michaella, age= 20, $2500,  IDE456 Michael, age= 20, $1250,  IDE654 Maria, age= 20, $1500]
+[ IDE123 Thomas, age= 55, $1500,  IDE321 Michaella, age= 20, $2500,  IDE456 Michael, age= 32, $1250,  IDE654 Maria, age= 20, $1500]
 ____________________________________________________________________________
 Sorting by name:
-[ IDE123 John, age= 55, $1500,  IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500]
+[ IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 32, $1250,  IDE321 Michaella, age= 20, $2500,  IDE123 Thomas, age= 55, $1500]
 _____________________________________________________________________________
 Sorting by age:
-[ IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500,  IDE123 John, age= 55, $1500]
+[ IDE654 Maria, age= 20, $1500,  IDE321 Michaella, age= 20, $2500,  IDE456 Michael, age= 32, $1250,  IDE123 Thomas, age= 55, $1500]
 _____________________________________________________________________________
 Sorting by age and name:
-[ IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500,  IDE123 John, age= 55, $1500]
+[ IDE654 Maria, age= 20, $1500,  IDE321 Michaella, age= 20, $2500,  IDE456 Michael, age= 32, $1250,  IDE123 Thomas, age= 55, $1500]
 
      */
 
