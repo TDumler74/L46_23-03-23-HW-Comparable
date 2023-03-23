@@ -19,7 +19,7 @@ public class Employee implements Comparable<Employee>{
 
     @Override
     public String toString() {
-        return id + ", name = " + name + ", age=" + age + ", salary = " + salary;
+        return " IDE"+id +" "+ name + ", age= " + age + ", $" + salary;
 
     }
 

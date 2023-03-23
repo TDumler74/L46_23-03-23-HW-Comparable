@@ -15,26 +15,39 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+        Employee john= new Employee(123,"John",55,1500);
 
+        Employee karl=new Employee(456,"Michael",20,1250);
 
-        Employee john= new Employee(123456,"John",55,1500);
-        Employee karl=new Employee(456123,"Karl",21,1250);
-        Employee andrew=new Employee(321456,"Andrew",55,2500);
-        Employee maria=new Employee(234516,"Maria",25,1500);
+        Employee andrew=new Employee(321,"Michaella",20,2500);
+
+        Employee maria=new Employee(654,"Maria",20,1500);
 
 
         List<Employee>employee= Arrays.asList(john,karl,andrew,maria);
         Collections.sort(employee);
+        System.out.println("Befor :");
         System.out.println(employee);
+        System.out.println("____________________________________________________________________________");
 
         for (Employee employee1:employee){
             Collections.sort(employee,new NameComparator());
-
-        }System.out.println(employee);
+        }
+        System.out.println("Sorting by name: ");
+        System.out.println(employee);
+        System.out.println("_____________________________________________________________________________");
 
         for (Employee employee4:employee){
             Collections.sort(employee,new ageComparator());
-        } System.out.println(employee);
+        }System.out.println("Sorting by age: ");
+        System.out.println(employee);
+        System.out.println("_____________________________________________________________________________");
+
+        for (Employee employee1:employee){
+            Collections.sort(employee,new AgeAndThenNameComparator());
+        }
+        System.out.println("Sorting by age and name: ");
+        System.out.println(employee);
 
 
 
