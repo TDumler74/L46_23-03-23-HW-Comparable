@@ -55,9 +55,18 @@ public class Main {
 
     }
     /*
-    [123456, name = John, age=55, salary = 1500, 234516, name = Maria, age=25, salary = 1500, 321456, name = Andrew, age=55, salary = 2500, 456123, name = Karl, age=21, salary = 1250]
-    [321456, name = Andrew, age=55, salary = 2500, 123456, name = John, age=55, salary = 1500, 456123, name = Karl, age=21, salary = 1250, 234516, name = Maria, age=25, salary = 1500]
-    [456123, name = Karl, age=21, salary = 1250, 234516, name = Maria, age=25, salary = 1500, 321456, name = Andrew, age=55, salary = 2500, 123456, name = John, age=55, salary = 1500]
+   Sorting by IDE :
+[ IDE123 John, age= 55, $1500,  IDE321 Michaella, age= 20, $2500,  IDE456 Michael, age= 20, $1250,  IDE654 Maria, age= 20, $1500]
+____________________________________________________________________________
+Sorting by name:
+[ IDE123 John, age= 55, $1500,  IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500]
+_____________________________________________________________________________
+Sorting by age:
+[ IDE123 John, age= 55, $1500,  IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500]
+_____________________________________________________________________________
+Sorting by age and name:
+[ IDE654 Maria, age= 20, $1500,  IDE456 Michael, age= 20, $1250,  IDE321 Michaella, age= 20, $2500,  IDE123 John, age= 55, $1500]
+
 
      */
 
