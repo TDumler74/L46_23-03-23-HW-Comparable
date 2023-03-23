@@ -26,7 +26,7 @@ public class Main {
 
         List<Employee>employee= Arrays.asList(john,karl,andrew,maria);
         Collections.sort(employee);
-        System.out.println("Befor :");
+        System.out.println("Sorting by IDE :");
         System.out.println(employee);
         System.out.println("____________________________________________________________________________");
 
